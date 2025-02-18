@@ -1,0 +1,44 @@
+/* h1 {
+  color: red;
+  text-decoration: underline;
+} */
+
+/* .box{
+    height: 100px;
+    width: 100px;
+    background-color: tomato;
+    padding: 20px;
+    border: 3px solid blue;
+    border-style: dashed;
+    margin: 20px;
+}
+.box1{
+    float:left;
+    background-color: lightgrey;
+} */
+
+.parent {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: flex-end;
+  gap: 20px;
+  flex-wrap: wrap;
+  background-color: black;
+}
+.child {
+  height: 100px;
+  width: 100px;
+  background-color: tomato;
+  padding: 20px;
+  border: 3px solid blue;
+  border-radius: 8px;
+}
+.child1 {
+  background-color: bisque;
+  /* height: 120px;
+    width: 120px; */
+}
+
+.child3 {
+  background-color: rgb(170, 196, 188);
+}
